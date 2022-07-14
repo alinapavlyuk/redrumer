@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    font-family: Baskerville, sans-serif;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-footer {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+}
+
+.eye {
+    width: 170px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-col {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.link-to-page {
+    font-family: Baskerville, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.link-to-page:hover {
+    color: #535977;
+}
+
+.back-link {
+    font-size: 20px;
+    margin: 30px 50px;
+    height: 45px;
+}
+.polygon {
+    width: 40px;
+}
+
+.polygon-down {
+    transform: rotate(180deg);
+}
+
+.news-text {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.article {
+    margin-bottom: 70px;
+}
+
+.mail {
+    color: #F34040;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+.mails {
+    margin-bottom: 50px;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logo {
+    padding: 3px;
+    width: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo-container {
+    width: 50px;
+    display: inline-grid;
+}
+
+.logo:hover {
+    width: 47px;
+}
+
+.warning-social-media {
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.partner_logo {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+}
+
