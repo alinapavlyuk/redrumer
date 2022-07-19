@@ -113,7 +113,7 @@ a {
 
 @font-face {
     font-family: "Onyx";
-    src: url(fonts/NIRVANA.TTF) format("truetype");
+    src: url(/fonts/NIRVANA.TTF) format("truetype");
 }
 
 .year {
