@@ -23,7 +23,7 @@ a {
 }
 
 .eye {
-    width: 170px;
+    width: 128px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -105,9 +105,35 @@ a {
     text-align: center;
 }
 
-.partner_logo {
+.partner-logo {
     display: block;
     margin: 10px auto;
     width: 50px;
 }
 
+@font-face {
+    font-family: "Onyx";
+    src: url(/fonts/NIRVANA.TTF) format("truetype");
+}
+
+.year {
+    font-family: Onyx, serif;
+    font-size: 35px;
+}
+
+.album-cover {
+    width: 130px;
+    transition: all 0.5s ease-in-out;
+}
+
+.album-cover:hover {
+    width: 135px;
+}
+
+.album-covers-row {
+    height: 135px;
+}
+
+.album-cover-div {
+    text-align: center;
+}
